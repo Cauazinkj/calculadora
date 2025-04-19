@@ -6,7 +6,7 @@ int main() {
     char operacao;
 
     while (1) {
-        printf("\nDigite a operacao (+, -, *, /, ^ para raiz, & para potencia, q para sair):\n");
+        printf("Digite a operacao (+, -, *, /, ^ para raiz, & para potencia, q para sair):\n");
         scanf(" %c", &operacao);  // espaço antes do %c consome 'enter' anterior
 
         if (operacao == 'q') {
